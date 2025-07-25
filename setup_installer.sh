@@ -1,4 +1,4 @@
-git clone git@github.com:jforestello/mac-bootstrap.git ~/bootstrap
-cd ~/bootstrap
+git clone git@github.com:jforestello/mac-bootstrap.git ~/mac-bootstrap
+cd ~/mac-bootstrap
 
 ./bootstrap.sh
