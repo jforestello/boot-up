@@ -4,6 +4,7 @@ gh auth login
 
 read -p "Do you want to upload the SSH key to GitHub? (y/n) " UPLOAD
 if [[ "$UPLOAD" == "y" ]]; then
+  SSH_KEY="$HOME/.ssh/id_ed25519"
   gh ssh-key add "${SSH_KEY}.pub" --title "$(hostname)"
   echo "✅ SSH key uploaded to GitHub."
 fi
